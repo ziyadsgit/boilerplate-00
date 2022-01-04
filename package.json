@@ -1,0 +1,19 @@
+{
+    "name": "boilerplate",
+    "version": "1.0.0",
+    "description": "Boilerplate for Containerized ReactJs/NodeJs Web Applicaiton.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "compression": "^1.7.4",
+        "express": "^4.16.1"
+    },
+    "author": "Ziyad Alazawy <info@ziyads.net>",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.14"
+    }
+}
